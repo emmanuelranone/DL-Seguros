@@ -5,62 +5,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-/*INDEX*/
-header{
-    height: 80px;
-    width: 100%;
-    background-color: rgb(80, 78, 78,0.9);
+} 
+
+.navbar{
+    background-color: rgb(80, 78, 78,0.9) !important;
     font-size: 24px;        
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    padding-top: 20px;
-    text-transform: uppercase;
-    position: sticky;
-    top: 0px;
-    border-bottom: rgb(190, 38, 0) solid 5px;
 }
-.logo{
-    float: left;  
-    margin-left: 40px;
+.nav-item a{
+    color: rgb(255, 255, 255) !important;
 }
-/* .redes{
-    float: right; 
-    margin-right: 20px; 
-    font-size: 48px;   
-    color: rgb(255, 255, 255);
+.navbar-brand{
+    font-size: 24px;        
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
 }
-
-.redes a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-} */
-
-.barra{
-    text-align: right;
-    margin-right: 40px;
-    
-}
-.barra ul{
-    list-style: none;    
-}
-.barra ul li{
-    display: inline-block;
-    padding-left: 20px;
-}
-.barra a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.barra a:hover{
-    color:rgb(190, 38, 0);
+.nav-item a:hover{
+    color:rgb(190, 38, 0)!important;
     text-decoration: underline;
-}
+} 
 
 
-.sec{    
-    /*width: 100%;   */      
+.sec{            
     display: flex;
     align-items: center;  
     justify-content: center;  
@@ -85,7 +53,7 @@ header{
     font-size: 40px;
     color: rgb(190, 38, 0);
     display: inline-block;
-	/*position: relative;*/
+	
 }
 .info{
     width: 40%;   
@@ -104,7 +72,7 @@ header{
     
     font-size: 24px;
     display: inline-block;
-	/*position: relative;*/
+	
 }
 
 .tarjetas {
@@ -144,7 +112,7 @@ header{
     padding: 20px;
 }
 
-/*SOBRE NOSOTROS*/
+/*SOBRE NOSOTROS*/ 
 .body_nosotros{
     background: url('../img/oficina.jpg') ;
     height: 100vh;
@@ -185,7 +153,7 @@ header{
 }
 
 
-/*SEGUROS*/
+/*SEGUROS*/ 
 .body_seguros{
     background: url('../img/seguros.png') ;
     height: 100vh;
@@ -234,14 +202,15 @@ header{
     padding-bottom: 30px;
 }
 
-/*CONTACTO*/
+/*CONTACTO*/ 
 .body_contact{
-    background-image: url('../img/contacto.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
+    background-image: url('../img/contact.jpg');
+    /*background-size: cover;
+    background-repeat:no-repeat;*/
     background-position: center;
     margin:0
 }
+
 .form{
     width:450px;
     height:660px;
@@ -256,7 +225,7 @@ header{
     box-sizing:border-box;
     font-family:'Montserrat',sans-serif;
     position:relative
-}
+} 
 
 #contact {
     margin: 10px 0px 50px;
