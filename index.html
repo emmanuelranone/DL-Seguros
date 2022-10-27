@@ -8,11 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css">
+    
     <title>DL Seguros</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg bg-light">
@@ -54,11 +56,73 @@
         </nav>       
     </header>
 
-    <main>
-        <img src="./img/02.jpg" width="100%" height="auto" >        
-    
-
-        <div>
+    <main class="index_main">
+        <!-- Inicio Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/auto1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SEGURO PARA AUTOS</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/auto2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SEGURO PARA AUTOS</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hogar.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SEGURO PARA EL HOGAR</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/agricola2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SEGURO AGRÍCOLA</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/barco.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SEGURO DE EMBARCACIONES</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/objetos.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SEGURO DE OBJETOS PERSONALES</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- fin carousel -->
+        
             <br>
 
             <section class="sec">
@@ -72,37 +136,45 @@
                 </div>
             </section>
 
-            <section class="tarjetas">                
-                <h3 class="tit_asesoramiento">¿Cómo funciona?</h2>
-                    
-                <div class="card">
-                    <!-- <img src="./img/agricola.jpg" width="95%" height="auto"> -->
-                    <i style="font-size: 48px; color: rgb(190, 38, 0)"  class="fa-solid fa-code-compare"></i>
-                    <i style="font-size: 48px; color: rgb(190, 38, 0)" class="fa-regular fa-handshake"></i>
-                    <h4>Protegé tu Cosecha</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quia ratione consequatur quo perspiciatis!</p>
-                    <br>
-                    <button>Ver más</button>
-                </div>
-
-                <div class="card">
-                    <img src="./img/embarcacion.jpg" width="95%" height="auto">
-                    <h4>Protegé tu Embarcación</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quia ratione consequatur quo perspiciatis!</p>
-                    <br>
-                    <button>Ver más</button>                
-                </div>
-
-                <div class="card">
-                    <img src="./img/casa.jpg" width="95%" height="auto">
-                    <h4>Protegé tu Hogar</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quia ratione consequatur quo perspiciatis!</p>
-                    <br>
-                    <button>Ver más</button>
+            <section class="container-fluid text-center index_cont">                
+                <h3 class="tit_como">¿Cómo funciona?</h3>
+                <div class="sec">                               
+                    <div class="row text-center row_padding">
+                        <div class="col-lg-4 ">
+                            <div class="card" style="width: 300px;">
+                                <i class="card-img-top fa-solid fa-chalkboard-user index_i"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cotizás</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sequi ea magnam ipsam voluptatibus excepturi nemo similique voluptatum asperiores? </p>                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <div class="card" style="width: 300px;">
+                                <i class="card-img-top fa-solid fa-code-compare index_i"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Comparás</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, nobis velit illo odit at ea dolores eveniet. Dicta explicabo quas veritatis cumque architecto.</p>                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <div class="card" style="width: 300px;">
+                                <i class="card-img-top fa-solid fa-handshake index_i"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Contratás</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, asperiores quos libero soluta accusamus vitae blanditiis cupiditate harum nostrum unde error!.</p>                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-        </div>
-</main>
+            <div class="container-fluid">
+                <img class="ssn" src="./img/ssn2.png" >
+            </div>
+            
+    </main>
 <a href="#" class="whats">
     <img src="./img/whatsapp.png" height="100%">
 </a>

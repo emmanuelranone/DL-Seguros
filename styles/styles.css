@@ -12,6 +12,7 @@
     font-size: 24px;        
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    border-bottom: rgb(190, 38, 0) 3px solid;
 }
 .nav-item a{
     color: rgb(255, 255, 255) !important;
@@ -27,7 +28,10 @@
     text-decoration: underline;
 } 
 
-
+/* INDEX */
+.index_main{
+    margin-top: 65px;
+}
 .sec{            
     display: flex;
     align-items: center;  
@@ -45,6 +49,13 @@
     font-size: 56px;   
     font-family: 'Montserrat', sans-serif;
     color: rgb(80, 78, 78);
+    padding: 30px;
+}
+.tit_como{
+    font-size: 56px;   
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 30px;
 }
 
 .sec .p1{
@@ -68,48 +79,50 @@
     padding: 20px;
     width: 40%;
     text-align: left;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;    
     font-size: 24px;
     display: inline-block;
 	
 }
 
-.tarjetas {
-    width: 100%; 
-    text-align:center;
-    background-color: rgb(211, 211, 211);   
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+.index_cont{
+    background-color: rgb(197, 197, 197);
+    margin-top: 30px;
 }
 .card {
     display:inline-block;
     position: relative;
     width: 25%;	
     margin: 20px;  
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border-color: rgb(56, 56, 56);
+    padding: 10px;
+    background: rgba(197, 197, 197, 0.9);
+    border: none;
+    /*border-radius: 10px;
+    border-color: rgb(56, 56, 56); */
 }
-.card h4{
-    font-size: 20px;
-}
-.card button{
-    width: 80%;
-    border-radius: 25px;
-    background-color: rgb(10, 24, 151);
-    color: rgb(255, 255,255);
-    font-size: 16px;    
-    padding: 5px;
-}
-.card button:hover{    
-    cursor:pointer;
-    background-color: rgb(32, 45, 170);
+.card-title{
+    font-size: xx-large;
+    font-weight: bold;
 }
 
-.card img{
-    padding: 20px;
+.card-text{
+    font-size: larger;
+}
+
+.row_padding{
+    padding-bottom: 30px;
+}
+
+.index_i{
+    font-size: 160px; 
+    color: rgb(190, 38, 0); 
+    align-items: center; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ssn{
+    width: 100%;
 }
 
 /*SOBRE NOSOTROS*/ 
@@ -165,9 +178,9 @@
 
 /*INFORMACION*/
 .body_informacion{
-    background: url('../img/util2.jpg') ;
+    background: url('../img/info2.jpg') ;
     height: 100vh;
-    background-size: cover;
+    /* background-size: cover;*/
     background-repeat:no-repeat;
     background-position: center;   
     margin:0    
@@ -177,9 +190,9 @@
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
+
 .artic{
     display:inline-block;
     margin-top: 10%;
@@ -205,10 +218,17 @@
 /*CONTACTO*/ 
 .body_contact{
     background-image: url('../img/contact.jpg');
-    /*background-size: cover;
-    background-repeat:no-repeat;*/
+    background-size: cover;
+    background-repeat:no-repeat;
     background-position: center;
     margin:0
+}
+
+.formu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .form{
@@ -217,7 +237,6 @@
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     padding:20px 30px;
