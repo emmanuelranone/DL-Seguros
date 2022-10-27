@@ -81,8 +81,6 @@
     padding: 10px;
     background: rgba(197, 197, 197, 0.9);
     border: none;
-    /*border-radius: 10px;
-    border-color: rgb(56, 56, 56); */
 }
 .card-title{
     font-size: xx-large;
@@ -121,26 +119,16 @@
 }
 .nosotros{
     width: 80%; 
-    margin-top: 10%;
-    margin-bottom: 10%;
-    text-align:center;  
+    margin-top: 180px;
+    margin-bottom: 10px; 
     background-color: rgb(56, 56, 56,0.7);
     display: flex;
-    float:right;
-    
+    float:right;     
 }
-.imagenNosotros{
-    width: 35%;
-    margin-top:  8%;
-    display:inline-block;
-    
-}
+
 .textNosotros {
-    width: 50%;
     margin-top:  5%;
-    padding-bottom: 40px;
-    display:inline-block;  
-    text-align:center; 
+    padding-bottom: 40px; 
     font-size: 28px;
     color: white;
     text-align: start;
@@ -150,6 +138,18 @@
     padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 767px) {
+    .textNosotros {
+        margin-top:  5%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 35px;
+        display:inline-block;  
+        font-size: 28px;
+        color: white;
+        text-align: center;
+    }
+}
 
 /*SEGUROS*/ 
 .body_seguros{
