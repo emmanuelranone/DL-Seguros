@@ -38,53 +38,37 @@
     justify-content: center;  
     
 }
-.info_home{
-    width: 70%;   
-    padding: 20px;   
-    display: flex;
-    align-items: center;  
-    justify-content: center; 
-}
 .tit_asesoramiento{
-    font-size: 56px;   
+    font-size: 50px;   
     font-family: 'Montserrat', sans-serif;
     color: rgb(80, 78, 78);
-    padding: 30px;
 }
+
+.p1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(190, 38, 0);
+	
+}
+.info{
+    text-align: right;
+    padding: 20px;    
+}
+
+.p2{
+    padding: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 28px;	
+}
+
 .tit_como{
     font-size: 56px;   
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     padding: 30px;
 }
-
-.sec .p1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    font-size: 40px;
-    color: rgb(190, 38, 0);
-    display: inline-block;
-	
-}
-.info{
-    width: 40%;   
-    display: inline-block;
-    text-align: right;
-    padding: 20px;
-}
-.img_asesoramiento{    
-    display: inline-block;
-}
-.sec .p2{
-    padding: 20px;
-    width: 40%;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;    
-    font-size: 24px;
-    display: inline-block;
-	
-}
-
 .index_cont{
     background-color: rgb(197, 197, 197);
     margin-top: 30px;
@@ -123,6 +107,7 @@
 
 .ssn{
     width: 100%;
+    margin-top: 30px;
 }
 
 /*SOBRE NOSOTROS*/ 
