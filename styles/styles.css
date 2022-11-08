@@ -53,7 +53,7 @@
 }
 .info{
     text-align: right;
-    padding: 20px;    
+    padding: 20px;   
 }
 
 .p2{
@@ -218,7 +218,7 @@
 
 .form{
     width:450px;
-    height:660px;
+    height:560px;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
@@ -255,7 +255,7 @@ input {
 #but_contact {
     float: right;
     padding: 8px 12px;
-    margin: 30px 0 0;
+    margin: 10px 0 0;
     font-family: "Montserrat", sans-serif;
     border: 2px solid #78788c;
     background: 0;
